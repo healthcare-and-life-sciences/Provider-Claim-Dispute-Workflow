@@ -1,4 +1,4 @@
-/README.md_Images/Header.png
+![alt text](./README.md_Images/Header.png)
 *** 
 
 # A-HLS Provider Claim Payment Dispute Workflow Documentation
