@@ -247,12 +247,15 @@ Step 7
 >
 - **Revision Short Description (Jun 13, 2022)**
 			- Converted the OmniScript to LWC.
-        * Fixed the associated DataRaptors (see list in the "Package Includes", "DataRaptor" Section).
-        * Vlocity Card 'VPL-ProviderClaims-105' converted into a FlexCard ("FCProviderClaimPaymentDispute").
-        * Added installation steps and assumptions.
-    * **Updated documentation (September 26, 2022)**
-    * **Revision Short Description (September 29, 2022)**
-        * Rendering issue correction for the OmniScript and FlexCard.
-    * **Updated documentation (October 28, 2022)**
-        * Included necessary data entries for proper use of the OmniScript and FlexCard.
+        		- Fixed the associated DataRaptors (see list in the "Package Includes", "DataRaptor" Section).
+        		- Vlocity Card 'VPL-ProviderClaims-105' converted into a FlexCard ("FCProviderClaimPaymentDispute").
+        		- Added installation steps and assumptions.
+ >
+ - **Revision Short Description (September 29, 2022)**
+  		      	- Rendering issue correction for the OmniScript and FlexCard.
+ >
+ - **Revsision Short Descriptiom (October 28, 2022)**
+ 		       	- Included necessary data entries for proper use of the OmniScript and FlexCard.
+>
+***
 
