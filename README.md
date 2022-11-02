@@ -1,4 +1,5 @@
-![alt text](./README.md_Images/Header.png)
+./README.md_Images/AHLS_Header.png
+
 *** 
 
 # A-HLS Provider Claim Payment Dispute Workflow Documentation
@@ -11,12 +12,10 @@ Provider Claim Payment Dispute Workflow is a guided workflow for providers to qu
 This process typically happens after a provider files a claim on behalf of a patient. The flow can be called from a Digital Process Automation (DPA) Action from a Salesforce Lightning Page or an Experience Cloud Community. 
 
 #### Use Case Scenario
-
+>
  As a provider, I need to see all my claims with payment details and be able to go through a guided process to log a dispute with the associated health plan for a claim if needed.
 
-Image showing the workflow a provider would go through when using this accelerator..png
-
-[Image: Image showing the workflow a provider would go through when using this accelerator.]
+./README.md_Images/Image_Showing_Provider_Using_This_Accelerator.png
 
 ## Business Objective
 
@@ -167,7 +166,7 @@ Step1
 - Make sure that at the 'TEST PARAMETERS' the Value' is filled with an existing/valid '**payeeId**' (vlocity_ins__PrimaryPayeeContactId__c);
 - Click '**Save & Fetch**'.
 
-Table Image Line 5.png
+./README.md_Images/Image_Step_1_Table_Line_5.png
 
 #### 
 Step 2
@@ -176,59 +175,77 @@ Step 2
 - Click on the 'OmniStudio DataRaptors';
 - Search for '**DR_EX_GetPractitionerClaims**', open it;
 
-Image Step 2_Table Line 6.png
+./README.md_Images/Image_Step_2_Table_Line_6.png
 
 #### 
-Step 3 (line 7)
+Step 3
 
 - At the '**DR_EX_GetPractitionerClaims**' click at the tab 'Preview';
 - Make sure the '**Key**' is set to '**payeeId**', and 'Value' is filled with an existing/valid '**payeeId**' (vlocity_ins__PrimaryPayeeContactId__c).
 
-Image Step 3_Table Line 7.png
+./README.md_Images/Image_Step_3_Table_Line_7.png
 
 #### 
-Step 4 (line 8)
+Step 4
 
 - Click on the 'Execute' Button.
 
-Image Step 4._Table Line 8.png
+./README.md_Images/Image Step 4_Table Line 8.png
 
-	
-|
-> Return to the 'FlexCard' tab ('AHLS_FlexCard_DisplayClaimsAssociatedToProvider').
+#### 
+Step 5
 
-	|	|
-| Step 10. At the 'Setup' tab, click on the 'Save and Fetch' button.
+- Return to the 'FlexCard' tab ('AHLS_FlexCard_DisplayClaimsAssociatedToProvider').
 
-Table Image Line 10.png
+./README.md_Images/Image_Step_5_Table_Line_9.png
+
+#### 
+Step 6
+
+- At the 'Setup' tab, click on the 'Save and Fetch' button.
+
+./README.md_Images/Image_Step_6_Table_Line_10.png
+
+#### 
+Step 7
+
 
 | Step 11. The datatable embedded at the FlexCard should display the data from the 'vlocity_ins__InsuranceClaim__c' object based on the 'vlocity_ins__PrimaryPayeeContactId__c' attribute.
 
-Table Image Line 11.png
+./README.md_Images/Image_Step_7_Table_Line _11.png
 
 * * *
 
 ## Assumptions
 
-    * A customer has licenses for Experience Cloud, Health Cloud, and the HINS Managed Package with OmniStudio. These solutions have all been installed and are functional.
-    * A customer is assuming Salesforce Lightning Experience — not Classic.
-    * Data Model elements that are part of the HINS (Vlocity) Managed package and Health Cloud are all available.
-    * The Accelerator uses the Lightning Design System standards and look. Customers may want to apply their own branding, which can be achieved. 
-    * Claims and Claim Payments are available in Salesforce.
-    * The process works in the context of a claim payment Id of a claim. 
-    * The card runs in the context of the logged-in users’ Id.
-
+- A customer has licenses for Experience Cloud, Health Cloud, and the HINS Managed Package with OmniStudio. These solutions have all been installed and are functional.
+>
+- A customer is assuming Salesforce Lightning Experience — not Classic.
+>
+- Data Model elements that are part of the HINS (Vlocity) Managed package and Health Cloud are all available.
+>
+ - The Accelerator uses the Lightning Design System standards and look. Customers may want to apply their own branding, which can be achieved.
+>
+ - Claims and Claim Payments are available in Salesforce.
+>
+ - The process works in the context of a claim payment Id of a claim. 
+>
+ - The card runs in the context of the logged-in users’ Id.
+>
 * * *
 
 ## Revision History
 
-    * **Revision Short Description (Sep 04, 2019)**
-        * Used a custom object for getting claim payment details. 
-        * Used three custom fields in **Claim** and **Case** object. Details are in the **Custom Fields** zip file. 
-    * **Revision Short Description (Oct 09, 2019)**
-        * Removed all customizations and used package objects.
-    * **Revision Short Description (Jun 13, 2022)**
-        * Converted the OmniScript to LWC.
+- **Revision Short Description (Sep 04, 2019)**
+			- Used a custom object for getting claim payment details. 
+			- Used three custom fields in **Claim** and **Case** object. 
+			- Details are in the **Custom Fields** zip file. 
+>
+- **Revision Short Description (Oct 09, 2019)**
+			- Removed all customizations and used package objects.
+>
+- **Revision Short Description (Jun 13, 2022)**
+			- Converted the OmniScript to LWC.
         * Fixed the associated DataRaptors (see list in the "Package Includes", "DataRaptor" Section).
         * Vlocity Card 'VPL-ProviderClaims-105' converted into a FlexCard ("FCProviderClaimPaymentDispute").
         * Added installation steps and assumptions.
