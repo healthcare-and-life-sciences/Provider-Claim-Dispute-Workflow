@@ -1,8 +1,5 @@
-<<<<<<< HEAD
+
  ![](./Images/AHLS_Header.png)
-=======
- ![](./README.md_Images/AHLS_Header.png)
->>>>>>> a3936415e244f8af05d5f8b02d19bfc2d5b2c06c
 
 *** 
 
