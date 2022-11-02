@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+ ![](./Images/AHLS_Header.png)
+=======
  ![](./README.md_Images/AHLS_Header.png)
+>>>>>>> a3936415e244f8af05d5f8b02d19bfc2d5b2c06c
 
 *** 
 
@@ -15,7 +19,7 @@ This process typically happens after a provider files a claim on behalf of a pat
 >
  As a provider, I need to see all my claims with payment details and be able to go through a guided process to log a dispute with the associated health plan for a claim if needed.
 
-./README.md_Images/Image_Showing_Provider_Using_This_Accelerator.png
+![](./Images/Image_Showing_Provider_Using_This_Accelerator.png)
 
 ## Business Objective
 
@@ -166,7 +170,7 @@ Step1
 - Make sure that at the 'TEST PARAMETERS' the Value' is filled with an existing/valid '**payeeId**' (vlocity_ins__PrimaryPayeeContactId__c);
 - Click '**Save & Fetch**'.
 
-./README.md_Images/Image_Step_1_Table_Line_5.png
+![](./Images/Image_Step_1_Table_Line_5.png)
 
 #### 
 Step 2
@@ -175,7 +179,7 @@ Step 2
 - Click on the 'OmniStudio DataRaptors';
 - Search for '**DR_EX_GetPractitionerClaims**', open it;
 
-./README.md_Images/Image_Step_2_Table_Line_6.png
+![](./Images/Image_Step_2_Table_Line_6.png)
 
 #### 
 Step 3
@@ -183,36 +187,36 @@ Step 3
 - At the '**DR_EX_GetPractitionerClaims**' click at the tab 'Preview';
 - Make sure the '**Key**' is set to '**payeeId**', and 'Value' is filled with an existing/valid '**payeeId**' (vlocity_ins__PrimaryPayeeContactId__c).
 
-./README.md_Images/Image_Step_3_Table_Line_7.png
+![](./Images/Image_Step_3_Table_Line_7.png)
 
 #### 
 Step 4
 
 - Click on the 'Execute' Button.
 
-./README.md_Images/Image Step 4_Table Line 8.png
+![](./Images/Image_Step_4_Table_Line_8.png)
 
 #### 
 Step 5
 
 - Return to the 'FlexCard' tab ('AHLS_FlexCard_DisplayClaimsAssociatedToProvider').
 
-./README.md_Images/Image_Step_5_Table_Line_9.png
+![](./Images/Image_Step_5_Table_Line_9.png)
 
 #### 
 Step 6
 
 - At the 'Setup' tab, click on the 'Save and Fetch' button.
 
-./README.md_Images/Image_Step_6_Table_Line_10.png
+![](./Images/Image_Step_6_Table_Line_10.png)
 
 #### 
 Step 7
 
 
-| Step 11. The datatable embedded at the FlexCard should display the data from the 'vlocity_ins__InsuranceClaim__c' object based on the 'vlocity_ins__PrimaryPayeeContactId__c' attribute.
+- The datatable embedded at the FlexCard should display the data from the 'vlocity_ins__InsuranceClaim__c' object based on the 'vlocity_ins__PrimaryPayeeContactId__c' attribute.
 
-./README.md_Images/Image_Step_7_Table_Line _11.png
+![](./Images/Image_Step_7_Table_Line_11.png)
 
 * * *
 
@@ -253,5 +257,5 @@ Step 7
     * **Revision Short Description (September 29, 2022)**
         * Rendering issue correction for the OmniScript and FlexCard.
     * **Updated documentation (October 28, 2022)**
-        * Included necessary data entries for proper use of the OmniScript and Flexcard.
+        * Included necessary data entries for proper use of the OmniScript and FlexCard.
 
