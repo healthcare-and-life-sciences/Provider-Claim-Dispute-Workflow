@@ -71,7 +71,7 @@ The business objective is to provide a fast and intuitive way for providers to r
 
 - AHLS_FlexCard_DisplayClaimsAssociatedToProvider 
 
-**FlexCard Associated DataRaptor (4)**
+**FlexCard Associated DataRaptor (1)**
 -  DR_EX_GetPractitionerClaims
 
 * * *
