@@ -238,24 +238,24 @@ Step 7
 ## Revision History
 
 - **Revision Short Description (Sep 04, 2019)**
-			- Used a custom object for getting claim payment details. 
-			- Used three custom fields in **Claim** and **Case** object. 
-			- Details are in the **Custom Fields** zip file. 
+	- Used a custom object for getting claim payment details. 
+	- Used three custom fields in **Claim** and **Case** object. 
+	- Details are in the **Custom Fields** zip file. 
 >
 - **Revision Short Description (Oct 09, 2019)**
-			- Removed all customizations and used package objects.
+	- Removed all customizations and used package objects.
 >
 - **Revision Short Description (Jun 13, 2022)**
-			- Converted the OmniScript to LWC.
-        		- Fixed the associated DataRaptors (see list in the "Package Includes", "DataRaptor" Section).
-        		- Vlocity Card 'VPL-ProviderClaims-105' converted into a FlexCard ("FCProviderClaimPaymentDispute").
-        		- Added installation steps and assumptions.
- >
+	- Converted the OmniScript to LWC.
+	- Fixed the associated DataRaptors (see list in the "Package Includes", "DataRaptor" Section).
+	-Vlocity Card 'VPL-ProviderClaims-105' converted into a FlexCard ("FCProviderClaimPaymentDispute").
+	-Added installation steps and assumptions.
+>
  - **Revision Short Description (September 29, 2022)**
-  		      	- Rendering issue correction for the OmniScript and FlexCard.
- >
- - **Revsision Short Descriptiom (October 28, 2022)**
- 		       	- Included necessary data entries for proper use of the OmniScript and FlexCard.
+		-Rendering issue correction for the OmniScript and FlexCard.
+>
+ - **Revision Short Description (October 28, 2022)**
+	- Included necessary data entries for proper use of the OmniScript and FlexCard.
 >
 ***
 
