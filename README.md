@@ -109,24 +109,24 @@ Post-Install Configuration Steps:
 2. Click on App Launcher → Search for “OmniScripts.”
        - Navigate to the recently installed OmniScript in the list view.
        - Click on the dropdown at the right of the OmniScript and select '**Activate**'.
-       - For more information regarding activating OmniScripts, please see this article: https://docs.vlocity.com/en/Activating-OmniScripts.html.
+       - For more information regarding activating OmniScripts, please see this article: https://help.salesforce.com/s/articleView?id=sf.os_activating_omniscripts.htm&type=5.
 >
 3. Add the installed OmniScript to the lightning page layout of your choosing. 
-      - Refer to this article for more information regarding adding OmniScripts to a Lightning or Experience page: https://docs.vlocity.com/en/Adding-an-LWC-OmniScript-to-a-Community-or-Lightning-Page.html
+      - Refer to this article for more information regarding adding OmniScripts to a Lightning or Experience page: https://help.salesforce.com/s/articleView?id=sf.os_add_a_standard_omniscript_component_to_a_lighting_page_20263.htm&type=5
 >
 4. Click on **App Launcher** → Search for “FlexCards.”
 	- Navigate to the recently installed FlexCard in the list view.
 	- Open the FlexCard.
 	- Click **Activate** and select the appropriate Publish Options.
-	- For more information regarding activating FlexCards, please see this article: https://docs.vlocity.com/en/Activate-a-FlexCard.html
+	- For more information regarding activating FlexCards, please see this article: https://help.salesforce.com/s/articleView?id=sf.os_activate_a_flexcard_24808.htm&type=5
 > 
  5. Add the installed FlexCard to the lightning page layout of your choosing.
 	 - Refer to the following articles for more information regarding adding FlexCards to a Lightning or Experience page: 
-    - https://docs.vlocity.com/en/Add-a-FlexCard-to-a-Lightning-Page.html
-    - https://docs.vlocity.com/en/Add-a-FlexCard-to-an-Experience-Page.html
+    - https://help.salesforce.com/s/articleView?id=sf.os_add_a_flexcard_to_a_lightning_page_25127.htm&type=5
+    - https://help.salesforce.com/s/articleView?id=sf.os_add_a_flexcard_to_an_experience_page_25183.htm&type=5
 >
  6. Add the FlexCard LWC to the desired Lightning Page. For more information on how to add Lightning Web Components to a page, please refer to this help article:
-	 - https://docs.vlocity.com/en/Add-a-FlexCard-to-a-Lightning-Page.html
+	 - https://help.salesforce.com/s/articleView?id=sf.os_add_a_flexcard_to_a_lightning_page_25127.htm&type=5
 >
  7. Remember to ACTIVATE the FlexCard to register its components.
 
